@@ -10,7 +10,7 @@ import { Route, Routes } from "react-router-dom";
 import RequireAuth from "./components/RequireAuth";
 import Accounts from "./components/pages/Accounts";
 import Services from"./components/pages/Services";
-import SignUp from './components/pages/SignUp';
+
 export default function App() {
   return (
     <div className="App">

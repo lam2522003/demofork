@@ -29,14 +29,11 @@
   
   /*---------------------------------------------*/
   .account-page{
-    background-image: url('../../public/images/img-2.jpg');
     display: block;
     margin: auto;
     width: 40%;
     font-size: 1.5rem;
     padding-top: 5%;
-    padding-bottom: 3%;
-    border-radius: 7%;
   }
 
   .account-page h3{
@@ -202,13 +199,13 @@
     align-items: center;
     padding: 15px;
     
-    background-image: url('../../public/images/img-home.jpg')
+    background-color: #ebebeb;
   }
   
   
   .wrap-login100 {
     width: 560px;
-    background: #f6ffee;
+    background: #fff;
     border-radius: 10px;
     position: relative;
   }
