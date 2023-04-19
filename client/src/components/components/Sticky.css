@@ -1,0 +1,11 @@
+.is-sticky {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    background: #fff;
+}
+
+.Sticky_box {
+    border-bottom: 2px solid #ccc;
+    background-color: #fff!important;
+}

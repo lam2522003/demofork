@@ -31,7 +31,7 @@ const Navbar = () => {
       <>
         <nav className='navbar'>
             <div className='navbar-container'>
-              <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+              <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
                 ProManage
               </Link>
               <div className='menu-icon' onClick={handleClick}>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     Services
                   </Link>
                 </li>                           
-                {accountState.isInAccount === true 
+                {accountState.isInAccount === true && !(accountState.accountType === AccountType.Admin) 
                 ? <li className='nav-item'>
                     <Link to ='/products' className='nav-links' onClick={closeMobileMenu}>
                       Products
@@ -57,7 +57,7 @@ const Navbar = () => {
                     </Link>
                   </li> : null
                 }
-                {accountState.accountType === AccountType.Seller || accountState.accountType === AccountType.Admin
+                {accountState.accountType === AccountType.Seller
                 ? <li className='nav-item'>
                     <Link to ='/customers' className='nav-links' onClick={closeMobileMenu}>
                       Customers
@@ -73,7 +73,7 @@ const Navbar = () => {
                     onClick={handleClick}
                   > {accountState.isInAccount ? "USER" : "SIGN IN"}</Button>
                 </div>              
-              </ul>             
+              </ul>    
             </div>
         </nav>
       </>

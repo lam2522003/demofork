@@ -1,0 +1,30 @@
+.Footer_item {
+    width: 100px;
+    color: #a9a9ab;
+    text-decoration: none;
+}
+
+.Footer_item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Footer_item:hover svg {
+    fill: #fff;
+}
+
+.Footer_icon {
+    width: 20px;
+}
+
+.Footer {
+    background-color: #27282c;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.Footer_title {
+    color: #fff;
+    font-size: 24px;
+}

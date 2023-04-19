@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 import React from "react";
 const Layout = () => {
     return(
-        <main>
+        <main className="main_login">
             <Navbar />
             <Outlet />
         </main>
