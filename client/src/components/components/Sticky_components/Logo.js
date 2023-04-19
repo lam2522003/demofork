@@ -8,9 +8,9 @@ const Sticky = () => {
         // <a href="http://localhost:3000/home" className="sticky_logo">
         //     <span>IntelliJ IDEA</span>
         // </a>
-        <Link to="/home" className="sticky_logo">
+        <a href="/home" className="sticky_logo">
             <span>Akatsuki</span>
-        </Link>
+        </a>
     );
 }
 

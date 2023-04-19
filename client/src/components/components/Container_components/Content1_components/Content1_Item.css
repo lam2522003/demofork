@@ -18,9 +18,10 @@
 
 .Content1_Item_item {
     margin-bottom: 8px;
+    font-size: 20px;
 }
 
 .Content1_Item_title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
 }

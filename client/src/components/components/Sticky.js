@@ -15,7 +15,7 @@ const Sticky = () => {
     const addSticky = () => {
         const sticky = document.querySelector('.Sticky_box');
         const header = document.querySelector('.header_box');
-        header.style.marginBottom = "92px";
+        header.style.marginBottom = "71px";
         sticky.style.position = "fixed";
         sticky.style.zIndex = "999";
         sticky.style.top = "0";
@@ -29,7 +29,7 @@ const Sticky = () => {
         sticky.style.position = "";
         sticky.style.zIndex = "";
         sticky.style.top = "";
-        sticky.style.background = "";
+        sticky.style.background = "#fff";
     }
 
     const isSticky = (e) => {
@@ -38,7 +38,7 @@ const Sticky = () => {
     };
 
     return (
-        <div className="Sticky_box">
+        <div className="Sticky_box" style={{background: "#fff"}}>
             <div className="wide">
                 <Logo />
                 <Navs_bar />

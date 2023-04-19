@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header_box">
             <div className="wide">
                 {/* <a className="header_link" href="http://localhost:3000/"> <Logo /> </a> */}
-                <Link to="/home" className="header_link"><Logo /></Link>
+                <a href="/home" className="header_link"><Logo /></a>
                 <Navs_logo />
             </div>
         </div>

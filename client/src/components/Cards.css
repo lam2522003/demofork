@@ -1,63 +1,66 @@
 .cards {
-    padding: 4rem;
-    background: #fff;
-  }
-  
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
   h1 {
     text-align: center;
+
   }
-  
+
   .cards__container {
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
-    width: 90%;
+    max-width: 12px;
+    width: 100%;
     margin: 0 auto;
   }
-  
+
   .cards__wrapper {
-    position: relative;
-    margin: 50px 0 45px;
+    margin: 60px 0 45px;
+    justify-content: center;
   }
-  
+
   .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
     display: grid;
     grid-template-columns: auto auto;
   }
-  
+
   .cards__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
   }
-  
+
   .cards__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgba(43, 35, 159, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(30, 82, 178, 0.017));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
   }
-  
+
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
   }
-  
+
   .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
   }
-  
+
   .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
@@ -67,11 +70,11 @@
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
-    background-color: #1f98f4;
+    color: #ac7831;
+    background-color: #8b931e;
     box-sizing: border-box;
   }
-  
+
   .cards__item__img {
     position: absolute;
     top: 0;
@@ -86,27 +89,27 @@
     object-fit: cover;
     transition: all 0.2s linear;
   }
-  
+
   .cards__item__img:hover {
     transform: scale(1.1);
   }
-  
+
   .cards__item__info {
     padding: 20px 30px 30px;
   }
-  
+
   .cards__item__text {
-    color: #252e48;
+    color: #fff;
     font-size: 18px;
     line-height: 24px;
   }
-  
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
     }
   }
-  
+
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;

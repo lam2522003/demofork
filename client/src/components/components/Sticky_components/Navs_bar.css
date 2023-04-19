@@ -10,6 +10,7 @@
 }
 
 .sticky_navs_item a {
+    font-size: 18px;
     text-decoration: none;
     color: rgb(123,118,115);
 }
@@ -55,4 +56,8 @@
     height: 72px;
     display: flex;
     align-items: center;
+}
+
+.sticky_navs_item:first-child {
+    font-size: 26px;
 }

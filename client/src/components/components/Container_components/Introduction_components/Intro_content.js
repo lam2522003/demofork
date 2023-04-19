@@ -13,9 +13,9 @@ const Intro_content = () => {
             </li>
             <li className="Intro_content_item">
                 {/* <a href="#" className="Intro_content_login">Login</a> */}
-                <Link to="/sign-in" className="Intro_content_login">
+                <a href="/sign-in" className="Intro_content_login">
                     <span className="login_link--span1">Sign In</span>
-                </Link>
+                </a>
             </li>
         </ul>
     );

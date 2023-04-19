@@ -31,9 +31,9 @@ const Navbar = () => {
       <>
         <nav className='navbar'>
             <div className='navbar-container'>
-              <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
+              <a href='/home' className='navbar-logo' onClick={closeMobileMenu}>
                 ProManage
-              </Link>
+              </a>
               <div className='menu-icon' onClick={handleClick}>
                 <FontAwesomeIcon icon={click ? faTimes : faBars} color="white"/>
               </div>
